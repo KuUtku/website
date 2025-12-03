@@ -23,12 +23,6 @@ h2 {
     font-family: 'Courier New', Courier, monospace; /* İkinci seviye başlık yazı tipi ailesi */
 }
 
-h4:read-write {
-    color: #c9d30c; /* İkinci seviye başlık rengi */
-    font-size: 20px; /* İkinci seviye başlık yazı tipi boyutu */
-    font-family: 'Courier New', Courier, monospace; /* İkinci seviye başlık yazı tipi ailesi */
-}
-
 li {
     margin-bottom: 10px; /* Liste öğeleri arasındaki boşluk */
     color: #0000ff; /* Liste öğesi metin rengi */
