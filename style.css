@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, sans-serif; /* Yazı tipi ailesi */
+    font-size: 11px; /* <p></p> etiketindeki ana yazının boyutu */
+    background-color: #f0f0f0; /* Web sayfasının arka plan rengi */
+    color: #333333; /* Metin rengi */
+}
+
+h1:hover {
+    color: #00a800; /* Başlık rengi */
+    font-size: 24px; /* Başlık yazı tipi boyutu */
+    font-family: Georgia, serif; /* Başlıkta kullanılan yazı tipi ailesi */
+    animation: color-change 3s infinite; /* Başlıkta renk değişimi animasyonu */
+}
+p {
+    margin-bottom: 15px; /* Paragraflar arasındaki boşluk */
+    color: darkorange; /* Paragraf metin rengi */
+    font-size: large; /* Paragraf yazı tipi boyutu */
+}
+
+h2 {
+    color: #ff4500; /* İkinci seviye başlık rengi */
+    font-size: 20px; /* İkinci seviye başlık yazı tipi boyutu */
+    font-family: 'Courier New', Courier, monospace; /* İkinci seviye başlık yazı tipi ailesi */
+}
+
+h4:read-write {
+    color: #c9d30c; /* İkinci seviye başlık rengi */
+    font-size: 20px; /* İkinci seviye başlık yazı tipi boyutu */
+    font-family: 'Courier New', Courier, monospace; /* İkinci seviye başlık yazı tipi ailesi */
+}
+
+li {
+    margin-bottom: 10px; /* Liste öğeleri arasındaki boşluk */
+    color: #0000ff; /* Liste öğesi metin rengi */
+    font-size: 20px; /* Liste öğesi yazı tipi boyutu */
+}
+
+@keyframes color-change {
+  0%   { color: blue; }
+  50%  { color: red; }
+  100% { color: rgb(16, 196, 91); }
+}
+
